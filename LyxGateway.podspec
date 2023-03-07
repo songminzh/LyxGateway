@@ -17,13 +17,11 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'LyxGateway/*.bundle'
-  s.resources = 'bundle'
-
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   s.vendored_frameworks = 'LyxGateway.framework'
+  s.resources = 'LyxGateway.bundle'
   s.frameworks = 'Foundation'
 
 end
